@@ -1,0 +1,177 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f5f7fa" />
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="800" height="80" fill="#6c5ce7" />
+  <text x="50" y="50" font-family="Arial, sans-serif" font-size="30" font-weight="bold" fill="white">balubo</text>
+  <text x="170" y="50" font-family="Arial, sans-serif" font-size="16" fill="white">自動収集型クリエイターポートフォリオ</text>
+  
+  <!-- Main service flow -->
+  <g transform="translate(40, 120)">
+    <!-- Service flow title -->
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2d3436">サービスの仕組み</text>
+    
+    <!-- Arrow flow -->
+    <path d="M60 60 L160 60 L180 80 L200 60 L300 60 L320 80 L340 60 L440 60 L460 80 L480 60 L580 60" 
+          stroke="#6c5ce7" stroke-width="3" fill="none" />
+    
+    <!-- Service steps -->
+    <!-- Step 1: Data Collection -->
+    <g transform="translate(60, 100)">
+      <rect x="0" y="0" width="100" height="100" rx="10" fill="#74b9ff" />
+      <text x="50" y="30" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">データ収集</text>
+      <g transform="translate(20, 40)">
+        <circle cx="0" cy="0" r="8" fill="white" />
+        <text x="15" y="5" font-family="Arial, sans-serif" font-size="12" fill="white">note</text>
+        <circle cx="0" cy="20" r="8" fill="white" />
+        <text x="15" y="25" font-family="Arial, sans-serif" font-size="12" fill="white">YouTube</text>
+        <circle cx="0" cy="40" r="8" fill="white" />
+        <text x="15" y="45" font-family="Arial, sans-serif" font-size="12" fill="white">Pixiv</text>
+      </g>
+    </g>
+    
+    <!-- Step 2: Analysis -->
+    <g transform="translate(200, 100)">
+      <rect x="0" y="0" width="100" height="100" rx="10" fill="#a29bfe" />
+      <text x="50" y="30" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">AI解析</text>
+      <g transform="translate(20, 40)">
+        <circle cx="0" cy="0" r="8" fill="white" />
+        <text x="15" y="5" font-family="Arial, sans-serif" font-size="12" fill="white">トピック抽出</text>
+        <circle cx="0" cy="20" r="8" fill="white" />
+        <text x="15" y="25" font-family="Arial, sans-serif" font-size="12" fill="white">専門性評価</text>
+        <circle cx="0" cy="40" r="8" fill="white" />
+        <text x="15" y="45" font-family="Arial, sans-serif" font-size="12" fill="white">スコア計算</text>
+      </g>
+    </g>
+    
+    <!-- Step 3: Profile -->
+    <g transform="translate(340, 100)">
+      <rect x="0" y="0" width="100" height="100" rx="10" fill="#0984e3" />
+      <text x="50" y="30" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">自動更新</text>
+      <g transform="translate(20, 45)">
+        <rect x="0" y="-10" width="60" height="30" rx="5" fill="white" opacity="0.7" />
+        <text x="30" y="5" font-family="Arial, sans-serif" font-size="10" fill="#0984e3" text-anchor="middle">ポートフォリオ</text>
+        <text x="30" y="18" font-family="Arial, sans-serif" font-size="10" fill="#0984e3" text-anchor="middle">自動生成</text>
+      </g>
+    </g>
+    
+    <!-- Step 4: Matching -->
+    <g transform="translate(480, 100)">
+      <rect x="0" y="0" width="100" height="100" rx="10" fill="#6c5ce7" />
+      <text x="50" y="30" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">マッチング</text>
+      <g transform="translate(20, 40)">
+        <rect x="0" y="-5" width="20" height="20" rx="3" fill="white" />
+        <text x="30" y="8" font-family="Arial, sans-serif" font-size="12" fill="white">企業</text>
+        <path d="M10 30 L30 45 L50 30" stroke="white" stroke-width="2" fill="none" />
+        <rect x="0" y="55" width="20" height="20" rx="3" fill="white" />
+        <text x="40" y="68" font-family="Arial, sans-serif" font-size="12" fill="white">クリエイター</text>
+      </g>
+    </g>
+  </g>
+  
+  <!-- Portfolio visualization -->
+  <g transform="translate(40, 250)">
+    <text x="0" y="30" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2d3436">ポートフォリオ表示例</text>
+    
+    <!-- Profile card -->
+    <g transform="translate(0, 50)">
+      <rect x="0" y="0" width="260" height="280" rx="10" fill="white" stroke="#dfe6e9" stroke-width="1" />
+      <circle cx="130" cy="60" r="40" fill="#6c5ce7" />
+      <text x="130" y="120" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2d3436" text-anchor="middle">佐藤クリエイト</text>
+      <text x="130" y="140" font-family="Arial, sans-serif" font-size="14" fill="#636e72" text-anchor="middle">ライター・映像クリエイター</text>
+      
+      <!-- Skill graph -->
+      <g transform="translate(40, 170)">
+        <!-- Skill chart background -->
+        <polygon points="90,0 0,65 35,170 145,170 180,65" fill="#f5f7fa" stroke="#dfe6e9" stroke-width="1" />
+        <!-- Skill data -->
+        <polygon points="90,20 30,75 50,140 130,140 150,75" fill="#6c5ce7" fill-opacity="0.5" stroke="#6c5ce7" stroke-width="2" />
+        <!-- Skill labels -->
+        <text x="90" y="-10" font-family="Arial, sans-serif" font-size="10" fill="#636e72" text-anchor="middle">ライティング</text>
+        <text x="-10" y="70" font-family="Arial, sans-serif" font-size="10" fill="#636e72" text-anchor="middle">映像編集</text>
+        <text x="30" y="180" font-family="Arial, sans-serif" font-size="10" fill="#636e72" text-anchor="middle">マーケティング</text>
+        <text x="150" y="180" font-family="Arial, sans-serif" font-size="10" fill="#636e72" text-anchor="middle">エンタメ</text>
+        <text x="190" y="70" font-family="Arial, sans-serif" font-size="10" fill="#636e72" text-anchor="middle">解説</text>
+      </g>
+    </g>
+    
+    <!-- Content samples -->
+    <g transform="translate(280, 50)">
+      <!-- Content header -->
+      <text x="0" y="-10" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2d3436">作品実績（自動収集）</text>
+      
+      <!-- Content cards -->
+      <g transform="translate(0, 0)">
+        <rect x="0" y="0" width="440" height="80" rx="5" fill="white" stroke="#dfe6e9" stroke-width="1" />
+        <rect x="10" y="10" width="60" height="60" fill="#ff7675" rx="5" />
+        <text x="40" y="45" font-family="Arial, sans-serif" font-size="20" fill="white" text-anchor="middle">YT</text>
+        <text x="80" y="30" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2d3436">最新の旅行動画が高評価</text>
+        <text x="80" y="50" font-family="Arial, sans-serif" font-size="12" fill="#636e72">再生回数: 8.5K • いいね: 750 • 2日前</text>
+        <g transform="translate(350, 20)">
+          <rect x="0" y="0" width="70" height="20" rx="10" fill="#6c5ce7" fill-opacity="0.1" />
+          <text x="35" y="14" font-family="Arial, sans-serif" font-size="10" fill="#6c5ce7" text-anchor="middle">旅行</text>
+          <rect x="0" y="25" width="70" height="20" rx="10" fill="#6c5ce7" fill-opacity="0.1" />
+          <text x="35" y="39" font-family="Arial, sans-serif" font-size="10" fill="#6c5ce7" text-anchor="middle">ガイド</text>
+        </g>
+      </g>
+      
+      <g transform="translate(0, 90)">
+        <rect x="0" y="0" width="440" height="80" rx="5" fill="white" stroke="#dfe6e9" stroke-width="1" />
+        <rect x="10" y="10" width="60" height="60" fill="#74b9ff" rx="5" />
+        <text x="40" y="45" font-family="Arial, sans-serif" font-size="20" fill="white" text-anchor="middle">note</text>
+        <text x="80" y="30" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2d3436">初心者向けカメラ講座が話題に</text>
+        <text x="80" y="50" font-family="Arial, sans-serif" font-size="12" fill="#636e72">閲覧数: 3.2K • スキ: 120 • 1週間前</text>
+        <g transform="translate(350, 20)">
+          <rect x="0" y="0" width="70" height="20" rx="10" fill="#6c5ce7" fill-opacity="0.1" />
+          <text x="35" y="14" font-family="Arial, sans-serif" font-size="10" fill="#6c5ce7" text-anchor="middle">カメラ</text>
+          <rect x="0" y="25" width="70" height="20" rx="10" fill="#6c5ce7" fill-opacity="0.1" />
+          <text x="35" y="39" font-family="Arial, sans-serif" font-size="10" fill="#6c5ce7" text-anchor="middle">初心者向け</text>
+        </g>
+      </g>
+      
+      <g transform="translate(0, 180)">
+        <rect x="0" y="0" width="440" height="80" rx="5" fill="white" stroke="#dfe6e9" stroke-width="1" />
+        <rect x="10" y="10" width="60" height="60" fill="#a29bfe" rx="5" />
+        <text x="40" y="45" font-family="Arial, sans-serif" font-size="20" fill="white" text-anchor="middle">Px</text>
+        <text x="80" y="30" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2d3436">新作イラストシリーズ開始</text>
+        <text x="80" y="50" font-family="Arial, sans-serif" font-size="12" fill="#636e72">閲覧数: 1.5K • ブックマーク: 85 • 2週間前</text>
+        <g transform="translate(350, 20)">
+          <rect x="0" y="0" width="70" height="20" rx="10" fill="#6c5ce7" fill-opacity="0.1" />
+          <text x="35" y="14" font-family="Arial, sans-serif" font-size="10" fill="#6c5ce7" text-anchor="middle">イラスト</text>
+          <rect x="0" y="25" width="70" height="20" rx="10" fill="#6c5ce7" fill-opacity="0.1" />
+          <text x="35" y="39" font-family="Arial, sans-serif" font-size="10" fill="#6c5ce7" text-anchor="middle">キャラクター</text>
+        </g>
+      </g>
+    </g>
+  </g>
+  
+  <!-- Development Roadmap -->
+  <g transform="translate(40, 550)">
+    <text x="350" y="0" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2d3436" text-anchor="middle">開発ロードマップ</text>
+    
+    <g transform="translate(100, 30)">
+      <line x1="0" y1="0" x2="500" y2="0" stroke="#dfe6e9" stroke-width="4" />
+      
+      <!-- Milestone 1 -->
+      <circle cx="0" cy="0" r="10" fill="#6c5ce7" />
+      <text x="0" y="-15" font-family="Arial, sans-serif" font-size="12" fill="#2d3436" text-anchor="middle">MVP</text>
+      <text x="0" y="25" font-family="Arial, sans-serif" font-size="10" fill="#636e72" text-anchor="middle">手動登録＆解析</text>
+      
+      <!-- Milestone 2 -->
+      <circle cx="166" cy="0" r="10" fill="#6c5ce7" />
+      <text x="166" y="-15" font-family="Arial, sans-serif" font-size="12" fill="#2d3436" text-anchor="middle">自動収集</text>
+      <text x="166" y="25" font-family="Arial, sans-serif" font-size="10" fill="#636e72" text-anchor="middle">クローラー実装</text>
+      
+      <!-- Milestone 3 -->
+      <circle cx="333" cy="0" r="10" fill="#6c5ce7" />
+      <text x="333" y="-15" font-family="Arial, sans-serif" font-size="12" fill="#2d3436" text-anchor="middle">スコア高度化</text>
+      <text x="333" y="25" font-family="Arial, sans-serif" font-size="10" fill="#636e72" text-anchor="middle">AIによる精度向上</text>
+      
+      <!-- Milestone 4 -->
+      <circle cx="500" cy="0" r="10" fill="#6c5ce7" />
+      <text x="500" y="-15" font-family="Arial, sans-serif" font-size="12" fill="#2d3436" text-anchor="middle">マッチング</text>
+      <text x="500" y="25" font-family="Arial, sans-serif" font-size="10" fill="#636e72" text-anchor="middle">企業向け検索機能</text>
+    </g>
+  </g>
+</svg>

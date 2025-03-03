@@ -1,0 +1,37 @@
+# プロジェクトルートディレクトリに移動
+cd ~/Desktop/port_balubo
+
+# フロントエンド - components関連のディレクトリ
+mkdir -p frontend/src/app/components/ui
+mkdir -p frontend/src/app/components/layout
+
+# フロントエンド - hooks, lib関連のディレクトリ
+mkdir -p frontend/src/app/hooks
+mkdir -p frontend/src/app/lib/api
+mkdir -p frontend/src/app/lib/utils
+
+# フロントエンド - APIとスタイル関連のディレクトリ
+mkdir -p frontend/src/app/api
+mkdir -p frontend/src/app/styles
+
+# フロントエンド - 各ページ用のディレクトリ
+mkdir -p frontend/src/app/login
+mkdir -p frontend/src/app/mypage
+mkdir -p frontend/src/app/works/new
+mkdir -p frontend/src/app/register
+
+# バックエンド - モジュール別のディレクトリ
+mkdir -p backend/models
+mkdir -p backend/routes
+mkdir -p backend/schemas
+mkdir -p backend/services
+mkdir -p backend/utils
+
+# 例: ページコンポーネントの移動
+# 既に存在する場合はこれらのコマンドは必要ありません
+mv frontend/src/app/register/page.tsx frontend/src/app/register/page.tsx
+mv frontend/src/app/works/page.tsx frontend/src/app/works/page.tsx
+
+# 空のディレクトリに.gitkeepファイルを作成
+find frontend/src/app -type d -empty -exec touch {}/.gitkeep \;
+find backend -type d -empty -exec touch {}/.gitkeep \; 
