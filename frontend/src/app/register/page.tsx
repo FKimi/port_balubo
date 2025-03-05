@@ -1,3 +1,10 @@
+"use client";
+
+import { useState } from "react";
+import Link from "next/link";
+import { useRouter } from "next/navigation";
+import { useAuth } from "@/contexts/AuthContext";
+
 export default function RegisterPage() {
     return (
       <main className="min-h-screen flex flex-col items-center justify-center p-4">

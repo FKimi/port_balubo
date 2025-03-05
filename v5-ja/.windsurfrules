@@ -103,31 +103,6 @@ port_balubo/
 ├── balubo.db                  # SQLiteデータベースファイル（開発用）
 └── README.md                  # プロジェクトの概要とセットアップ方法
 
-frontend/
-└── src/
-    └── app/
-        ├── api/
-        ├── components/
-        │   ├── layout/
-        │   │   └── ヘッダーやフッターなどの共通コンポーネント
-        │   └── ui/
-        ├── hooks/
-        ├── lib/
-        │   ├── api/
-        │   └── utils/
-        ├── login/
-        │   └── page.tsx
-        ├── mypage/
-        │   └── page.tsx
-        ├── register/
-        │   └── page.tsx
-        ├── works/
-        │   ├── new/
-        │   │   └── page.tsx
-        │   └── page.tsx
-        ├── layout.tsx ←ここが重要！
-        ├── page.tsx（トップページ）
-        └── styles/
 
 ## GitHubリポジトリ
 https://github.com/FKimi/port_balubo
@@ -138,6 +113,31 @@ port_balubo ※デスクトップにある
 ##  使用するAPIキー
 Google Gemini APIキー: 
 AIzaSyC7-mAwqtJFAztLcrBnGYdRM8
+
+##  テーブル
+1. users テーブル（ユーザー情報）
+項目
+1. ユーザーID
+2. ユーザー名
+3. メールアドレス
+4. プロフィール画像
+5. パスワード
+6. メール確認日時
+7. リメンバートークン
+8. 作成日時
+9. 更新日時
+
+2. works テーブル（作品の投稿画面）
+項目
+1. 投稿ID
+2. ユーザーID（投稿者）
+3. タイトル
+4. 本文
+5. ポストタイプ（自作品・広告など）
+6. タグ（業界・領域・役割・キーワードなど）
+7. 参照URL (OGP用)
+8. 作成日時
+9. 更新日時
 
 ## 重要な制約
 1. **変更禁止ファイル**

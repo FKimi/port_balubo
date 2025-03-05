@@ -1,0 +1,9 @@
+frontend/
+├── app/
+│   └── note/
+│       └── page.jsx
+├── lib/
+│   └── fetchNote.js
+├── package.json
+├── next.config.js
+└── ... (他のファイル)
